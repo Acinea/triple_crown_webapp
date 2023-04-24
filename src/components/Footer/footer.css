@@ -4,6 +4,7 @@
 
 .footer-contact-container {
     display: flex;
+    flex-direction: column;
 }
 
 .footer-title {
