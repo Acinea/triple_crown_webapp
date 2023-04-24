@@ -1,0 +1,16 @@
+header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3DE35E;
+    z-index: 2;
+}
+
+.header-text {
+    color: blue;
+    margin: 0;
+}
