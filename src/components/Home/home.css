@@ -12,6 +12,11 @@
     padding: 1.5rem;
 }
 
+#banner-logo {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 #banner-title {
     text-align: center;
     font-size: 48px;

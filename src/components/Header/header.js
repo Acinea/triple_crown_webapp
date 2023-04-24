@@ -14,7 +14,7 @@ export function Header() {
                 <div className={"header-menu-button-inactive"} >
                     <MenuIcon fontSize='large' onClick={toggleMenu} />
                 </div>
-                <h1 className='header-text'>PlaceHolder</h1>
+                
                 <div>
                     <FacebookIcon fontSize='large'/>
                 </div>
