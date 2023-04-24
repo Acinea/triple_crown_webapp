@@ -1,0 +1,19 @@
+#location-img {
+    width: 100%;
+}
+
+input {
+    border: 0;
+    padding: 0.625rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.07)
+}
+
+textarea {
+    border: 0;
+    border-radius: 0.375rem;
+    padding: 0.625rem 0.75rem;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.07);
+}
