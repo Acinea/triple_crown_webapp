@@ -1,0 +1,17 @@
+.footer-container {
+    padding: 3rem 1.5rem;
+}
+
+.footer-contact-container {
+    display: flex;
+}
+
+.footer-title {
+    flex-grow: 50%;
+    flex-basis: 1;
+}
+
+.footer-info {
+    flex-grow: 50%;
+    flex-basis: 1;
+}
