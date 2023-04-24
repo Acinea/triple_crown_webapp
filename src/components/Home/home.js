@@ -9,7 +9,7 @@ export function Home() {
             <section className='banner-container'>
                 <article className='banner-text-container'>
                     <img id="banner-logo" src={logo} alt='company-logo' />
-                    <p id='banner-info'>Triple Crown Promotion is the premier sports event organizing company in New Jersey which specializes in bringing sports fans and athletes together through autographing events.</p>
+                    <p id='banner-info'>Triple Crown Promotion is a premier sports event organizing company in New Jersey which specializes in bringing sports fans and athletes together through autographing events.</p>
                     <button id="banner-button">Contact</button>
                 </article>
             </section>
