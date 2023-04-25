@@ -3,7 +3,7 @@ import './contact.css'
 
 export function Contact() {
     return (
-        <main className='contact-container'>
+        <main id="contact" className='contact-container'>
             <section>
                 <h3>Triple Crown Promotion</h3>
                 <p>With a passion for sports and a commitment to providing unnforgettable experiences for fans, Triple Crown Promotion is quickly becoming renowned for its highly-anticipated events. For more information on upcoming events, or to inquire about potiential partnerships, please complete the form below, and one of our event specialists will get back to you shortly!</p>

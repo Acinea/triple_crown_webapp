@@ -10,7 +10,8 @@ export function Home() {
                 <article className='banner-text-container'>
                     <img id="banner-logo" src={logo} alt='company-logo' />
                     <p id='banner-info'>Triple Crown Promotion is a premier sports event organizing company in New Jersey which specializes in bringing sports fans and athletes together through autographing events.</p>
-                    <button id="banner-button">Contact</button>
+                    <button id="banner-button"  onClick={() => window.location.replace("/#contact")}>Contact</button>
+                    <button id="banner-purchase-button">Purchase Tickets</button>
                 </article>
             </section>
             <section>
