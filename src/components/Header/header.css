@@ -32,7 +32,7 @@ header {
 
 .nav-menu-container-active {
     width: 50%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0vh;
     left: 0vw;

@@ -40,7 +40,8 @@
     margin-top: 1.5rem;
     padding: 0.5rem 0.75rem;
     background-color: rgb(191, 239, 255);
-    color: #74A3B3;
+    color: black;
+    font-weight: bold;
     border: solid #74A3B3 6px;
     border-radius: 8px;
     font-size: 1.25rem;

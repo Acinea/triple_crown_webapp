@@ -27,6 +27,7 @@ export function Header() {
                         <li onClick={() => window.location.replace("/#home")}>Home</li>
                         <li onClick={() => window.location.replace("/#contact")}>Contact</li>
                         <li onClick={() => window.location.replace("/#about")}>About Us</li>
+                        <li>Past Events</li>
                         <li id="menu-purchase"><b>Purchase Tickets</b></li>
                     </ul>
                     <div className="menu-footer">
