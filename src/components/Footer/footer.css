@@ -8,11 +8,9 @@
 }
 
 .footer-title {
-    flex-grow: 50%;
-    flex-basis: 1;
+    margin: 0.5rem;
 }
 
 .footer-info {
-    flex-grow: 50%;
-    flex-basis: 1;
+    margin: 0.5rem;
 }

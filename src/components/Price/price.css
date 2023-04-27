@@ -25,3 +25,10 @@
     font-size: x-large;
     margin-top: 0;
 }
+
+.price-logo {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%,0)
+}
