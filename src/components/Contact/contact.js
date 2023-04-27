@@ -9,13 +9,13 @@ export function Contact() {
                 <p>With a passion for sports and a commitment to providing unnforgettable experiences for fans, Triple Crown Promotion is quickly becoming renowned for its highly-anticipated events. For more information on upcoming events, or to inquire about potiential partnerships, please complete the form below, and one of our event specialists will get back to you shortly!</p>
             </section>
             <section className='contact-form-container'>
-                <form className='contact-form'>
+                <form className='contact-form' action="https://formsubmit.co/acinea.kennedy@gmail.com" method="POST">
                     <label>Name</label>
-                    <input></input>
+                    <input name="Name" type="text" required></input>
                     <label>Email</label>
-                    <input></input>
+                    <input name="Email" type="text" required></input>
                     <label>Message</label>
-                    <textarea></textarea>
+                    <textarea name="Message" required></textarea>
                     <div className='submit-container'>
                         <button id="submit-button">Submit</button>
                     </div>
