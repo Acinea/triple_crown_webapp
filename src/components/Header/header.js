@@ -10,6 +10,15 @@ export function Header() {
     const toggleMenu = () => {
         active === false ? setActive(true) : setActive(false)
     }
+    const scrollSmoothTo = (id) => {
+        const element = document.getElementById(id);
+        element.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth'
+        })
+        toggleMenu();
+      }
+
     return (
         <main>
             <header id="home">
@@ -24,9 +33,9 @@ export function Header() {
 
                     </div>
                     <ul className="menu-list">
-                        <li onClick={() => window.location.replace("/#home")}>Home</li>
-                        <li onClick={() => window.location.replace("/#contact")}>Contact</li>
-                        <li onClick={() => window.location.replace("/#about")}>About Us</li>
+                        <li onClick={() => scrollSmoothTo('home')}>Home</li>
+                        <li onClick={() => scrollSmoothTo('contact')}>Contact</li>
+                        <li onClick={() => scrollSmoothTo('about')}>About Us</li>
                         <li>Past Events</li>
                         <li id="menu-purchase"><b>Purchase Tickets</b></li>
                     </ul>
