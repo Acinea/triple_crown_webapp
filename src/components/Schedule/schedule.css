@@ -1,0 +1,31 @@
+a {
+    color: blue;
+}
+
+.schedule-container {    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 0.75rem;
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.hide-schedule-container {
+    display: none;
+}
+
+.close-schedule-button {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.schedule-title {
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    margin-top: 0;
+}
