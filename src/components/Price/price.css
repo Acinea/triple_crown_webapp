@@ -32,3 +32,21 @@
     left: 50%;
     transform: translate(-50%,0)
 }
+
+@media only screen and (min-width: 768px) {
+    .price-container {
+        width:50%;
+    }
+
+    .close-price-button:hover {
+        cursor: pointer;
+    }
+
+    .price-title{
+        font-size: xx-large;
+    }
+
+    .price-logo{
+        width: 15%;
+    }
+}

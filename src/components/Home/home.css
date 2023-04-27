@@ -59,3 +59,93 @@
 #player-image {
     max-width: 100%;;
 }
+
+@media only screen and (min-width: 768px) {
+
+    #banner-logo {
+        position: relative;
+        width: 20%;
+        box-sizing: border-box;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .banner-text-container {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5rem;
+    }
+
+    #banner-info {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+        width: 50%;
+    }
+
+    .banner-button-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #banner-button {
+        width: 30%;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1rem;
+        background-color: rgb(191, 239, 255);
+        border-radius: 8px;
+        font-size: 1.25rem;
+    }
+
+    #banner-button:hover {
+        transform: scale(1.25);
+        transition-duration: 0.5s;
+        background-color: #74A3B3;
+        color: rgb(191, 239, 255);
+        cursor: pointer;
+    }
+
+    #banner-purchase-button:hover {
+        transform: scale(1.25);
+        background-color: #74A3B3;
+        color: rgb(191, 239, 255);
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    
+    #banner-purchase-button {
+        width: 30%;
+        margin-top: 1.5rem;
+        padding: 0.5rem 0.75rem;
+        background-color: rgb(191, 239, 255);
+        color: black;
+        font-weight: bold;
+        border: solid #74A3B3 6px;
+        border-radius: 8px;
+        font-size: 1.25rem;
+    }
+
+    .presents {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+    
+    .presents-title {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .presents-info {
+        font-size: larger;
+    }
+
+    .info-menu:hover {
+        cursor: pointer;
+        color: lightblue;
+    }
+
+    #player-image {
+        max-width: 100%;;
+    }
+}

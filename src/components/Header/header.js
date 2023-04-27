@@ -33,10 +33,10 @@ export function Header() {
 
                     </div>
                     <ul className="menu-list">
-                        <li onClick={() => scrollSmoothTo('home')}>Home</li>
-                        <li onClick={() => scrollSmoothTo('contact')}>Contact</li>
-                        <li onClick={() => scrollSmoothTo('about')}>About Us</li>
-                        <li>Past Events<br></br>*Coming Soon*</li>
+                        <li className='menu-item' onClick={() => scrollSmoothTo('home')}>Home</li>
+                        <li className='menu-item' onClick={() => scrollSmoothTo('contact')}>Contact</li>
+                        <li className='menu-item' onClick={() => scrollSmoothTo('about')}>About Us</li>
+                        <li className='menu-item'>Past Events<br></br>*Coming Soon*</li>
                         <li id="menu-purchase"><b>Purchase Tickets</b></li>
                     </ul>
                     <div className="menu-footer">

@@ -44,3 +44,21 @@ textarea {
     width: 45%;
     
 }
+
+@media only screen and (min-width: 768px) { 
+    .contact-container {
+        padding: 3rem 15rem;
+        width: auto;
+    }
+
+    #submit-button {
+        width: 25%;
+    }
+
+    #submit-button:hover {
+        transition-duration: 0.5s;
+        background-color: #74A3B3;
+        color: rgb(191, 239, 255);
+        cursor: pointer;
+    }
+}

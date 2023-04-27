@@ -17,3 +17,16 @@ textarea {
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.07);
 }
+
+@media only screen and (min-width: 768px) {
+    #location-img {
+        position: relative;
+        padding-left: 15rem;
+        padding-right: 15rem;
+        left: 50%;
+        transform: translate(-50%);
+        height: 40rem;
+        width: 50%;
+    }
+
+}
