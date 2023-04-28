@@ -3,6 +3,7 @@ import logo from '../../resources/tcp logo.jpg'
 import CloseIcon from '@mui/icons-material/MenuOpen'
 import MenuIcon from '@mui/icons-material/Menu';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import './header.css'
 
 export function Header() {
@@ -48,8 +49,9 @@ export function Header() {
                     <MenuIcon fontSize='large' onClick={toggleMenu} />
                 </div>
                 
-                <div>
+                <div id="social-media-container">
                     <a id="fb-icon" href="https://www.facebook.com/profile.php?id=100091648703312" target="_blank"><FacebookIcon fontSize='large'/></a>
+                    <a id="ig-icon" href="https://www.instagram.com/triplecrownpromotion/" taget="_blank"><InstagramIcon fontSize='large'/></a>
                 </div>
             </header>
         </main>

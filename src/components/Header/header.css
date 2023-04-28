@@ -15,8 +15,18 @@ header {
     margin: 0;
 }
 
+#social-media-container {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
 #fb-icon {
     color:blue;
+}
+
+#ig-icon {
+    color: blue;
 }
 
 /* Popout Menu */
