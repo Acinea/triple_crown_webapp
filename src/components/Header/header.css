@@ -150,6 +150,7 @@ header {
         background-color: #74A3B3;
         color: rgb(191, 239, 255);
         border: rgb(191, 239, 255);
+        cursor: pointer;
     }
 
     #menu-purchase:active {

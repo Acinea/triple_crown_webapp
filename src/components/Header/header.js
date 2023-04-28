@@ -37,7 +37,7 @@ export function Header() {
                         <li className='menu-item' onClick={() => scrollSmoothTo('contact')}>Contact</li>
                         <li className='menu-item' onClick={() => scrollSmoothTo('about')}>About Us</li>
                         <li className='menu-item'>Past Events<br></br>*Coming Soon*</li>
-                        <li id="menu-purchase"><b>Purchase Tickets</b></li>
+                        <li id="menu-purchase" onClick={() => window.open('https://www.eventbrite.com/e/sportscards-memorabilia-show-featuring-dwight-gooden-tickets-624616594047', '_blank')}><b>Purchase Tickets</b></li>
                     </ul>
                     <div className="menu-footer">
                         <img src={logo} alt="company logo" id="menu-logo" />

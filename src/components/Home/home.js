@@ -30,7 +30,7 @@ export function Home() {
                     <p id='banner-info'>Triple Crown Promotion is a premier sports event organizing company in New Jersey which specializes in bringing sports fans and athletes together through autographing events.</p>
                     <div className="banner-button-container">
                         <button id="banner-button"  onClick={() => scrollSmoothTo('contact')}>Contact</button>
-                        <button id="banner-purchase-button">Purchase Tickets</button>
+                        <button onClick={() => window.open('https://www.eventbrite.com/e/sportscards-memorabilia-show-featuring-dwight-gooden-tickets-624616594047', '_blank')} id="banner-purchase-button">Purchase Tickets</button>
                     </div>
                 </article>
             </section>
