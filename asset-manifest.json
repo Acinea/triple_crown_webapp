@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/triple_crown_webapp/static/css/main.9f009c30.css",
-    "main.js": "/triple_crown_webapp/static/js/main.77ab5656.js",
-    "static/js/787.8b17b01c.chunk.js": "/triple_crown_webapp/static/js/787.8b17b01c.chunk.js",
-    "static/media/GoodenDwight.png": "/triple_crown_webapp/static/media/GoodenDwight.21bff97032cfe71587cb.png",
-    "static/media/tcp banner.jpeg": "/triple_crown_webapp/static/media/tcp banner.30b0b30cb35e9dc74970.jpeg",
-    "static/media/tcp logo.jpg": "/triple_crown_webapp/static/media/tcp logo.88d05ecaf733b75eec12.jpg",
-    "index.html": "/triple_crown_webapp/index.html",
-    "main.9f009c30.css.map": "/triple_crown_webapp/static/css/main.9f009c30.css.map",
-    "main.77ab5656.js.map": "/triple_crown_webapp/static/js/main.77ab5656.js.map",
-    "787.8b17b01c.chunk.js.map": "/triple_crown_webapp/static/js/787.8b17b01c.chunk.js.map"
+    "main.css": "/static/css/main.1039f35f.css",
+    "main.js": "/static/js/main.bd793f5e.js",
+    "static/js/787.8b17b01c.chunk.js": "/static/js/787.8b17b01c.chunk.js",
+    "static/media/GoodenDwight.png": "/static/media/GoodenDwight.21bff97032cfe71587cb.png",
+    "static/media/tcp banner.jpeg": "/static/media/tcp banner.30b0b30cb35e9dc74970.jpeg",
+    "static/media/tcp logo.jpg": "/static/media/tcp logo.88d05ecaf733b75eec12.jpg",
+    "index.html": "/index.html",
+    "main.1039f35f.css.map": "/static/css/main.1039f35f.css.map",
+    "main.bd793f5e.js.map": "/static/js/main.bd793f5e.js.map",
+    "787.8b17b01c.chunk.js.map": "/static/js/787.8b17b01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f009c30.css",
-    "static/js/main.77ab5656.js"
+    "static/css/main.1039f35f.css",
+    "static/js/main.bd793f5e.js"
   ]
 }
