@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.55010595.css",
+    "main.css": "/static/css/main.e2183572.css",
     "main.js": "/static/js/main.a5ae71f3.js",
     "static/js/787.8b17b01c.chunk.js": "/static/js/787.8b17b01c.chunk.js",
     "static/media/GoodenDwight.png": "/static/media/GoodenDwight.21bff97032cfe71587cb.png",
     "static/media/tcp banner.jpeg": "/static/media/tcp banner.30b0b30cb35e9dc74970.jpeg",
     "static/media/tcp logo.png": "/static/media/tcp logo.d4f3e2db048958ed79d3.png",
     "index.html": "/index.html",
-    "main.55010595.css.map": "/static/css/main.55010595.css.map",
+    "main.e2183572.css.map": "/static/css/main.e2183572.css.map",
     "main.a5ae71f3.js.map": "/static/js/main.a5ae71f3.js.map",
     "787.8b17b01c.chunk.js.map": "/static/js/787.8b17b01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55010595.css",
+    "static/css/main.e2183572.css",
     "static/js/main.a5ae71f3.js"
   ]
 }
