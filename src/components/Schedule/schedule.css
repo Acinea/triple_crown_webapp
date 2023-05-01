@@ -41,6 +41,7 @@ a {
     .schedule-container {
         width:50%;
         max-height: 90%;
+        overflow: hidden;
     }
 
     .close-schedule-button:hover {
