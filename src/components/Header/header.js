@@ -1,5 +1,5 @@
 import React, {useState, Link} from 'react'
-import logo from '../../resources/tcp logo.jpg'
+import logo from '../../resources/tcp logo.png'
 import CloseIcon from '@mui/icons-material/MenuOpen'
 import MenuIcon from '@mui/icons-material/Menu';
 import FacebookIcon from '@mui/icons-material/Facebook';

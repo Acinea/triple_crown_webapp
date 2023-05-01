@@ -36,6 +36,7 @@
 @media only screen and (min-width: 768px) {
     .price-container {
         width:50%;
+        max-height: 90%;
     }
 
     .close-price-button:hover {

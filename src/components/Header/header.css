@@ -121,6 +121,7 @@ header {
 
 .menu-footer {
     position: absolute;
+    width:100%;
     text-align: center;
     bottom: 0.5rem;
     left: 0;

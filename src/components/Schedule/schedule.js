@@ -1,6 +1,6 @@
 import React from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-import logo from '../../resources/tcp logo.jpg'
+import logo from '../../resources/tcp logo.png'
 import './schedule.css'
 
 

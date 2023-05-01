@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import player from '../../resources/GoodenDwight.png'
-import logo from '../../resources/tcp logo.jpg'
+import logo from '../../resources/tcp logo.png'
 import {Price} from '../Price/price'
 import {Schedule} from '../Schedule/schedule'
 import './home.css'

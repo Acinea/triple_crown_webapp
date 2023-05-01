@@ -40,6 +40,7 @@ a {
 @media only screen and (min-width: 768px) {
     .schedule-container {
         width:50%;
+        max-height: 90%;
     }
 
     .close-schedule-button:hover {
