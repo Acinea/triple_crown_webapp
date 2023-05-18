@@ -15,8 +15,9 @@
 }
 
 .close-price-menu-button {
-    display: flex;
-    flex-direction: row-reverse;
+    width: fit-content;
+    position: absolute;
+    right: 2rem;
 }
 
 .price-title {
@@ -42,6 +43,8 @@
 
     .close-price-menu-button:hover {
         cursor: pointer;
+        background-color: lightgrey;
+        border-radius: 15px;
     }
 
     .price-title{

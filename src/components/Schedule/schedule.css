@@ -19,8 +19,9 @@ a {
 }
 
 .close-schedule-button {
-    display: flex;
-    flex-direction: row-reverse;
+    width: fit-content;
+    position: absolute;
+    right: 2rem;
 }
 
 .schedule-title {
@@ -46,6 +47,8 @@ a {
 
     .close-schedule-button:hover {
         cursor: pointer;
+        background-color: lightgrey;
+        border-radius: 15px;
     }
 
     .schedule-title{

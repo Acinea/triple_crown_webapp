@@ -15,8 +15,9 @@
 }
 
 .close-vendor-menu-button {
-    display: flex;
-    flex-direction: row-reverse;
+    width: fit-content;
+    position: absolute;
+    right: 2rem;
 }
 
 #vendor-title {
@@ -32,4 +33,12 @@
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .close-vendor-menu-button:hover {
+        cursor: pointer;
+        background-color: lightgrey;
+        border-radius: 15px;
+    }
 }
