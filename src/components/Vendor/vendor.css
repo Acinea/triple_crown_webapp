@@ -1,0 +1,29 @@
+#vendor-main {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 0.75rem 1.25rem;
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    border: 3px solid black; 
+}
+
+#hide-vendor-main {
+    display: none;
+}
+
+.close-vendor-menu-button {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#vendor-title {
+    display: flex;
+    justify-content: center;
+}
+
+.table-info {
+    padding-left: 40px;
+}
