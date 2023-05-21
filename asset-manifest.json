@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.14e9379a.css",
-    "main.js": "/static/js/main.a43b5a44.js",
+    "main.css": "/static/css/main.69e98b62.css",
+    "main.js": "/static/js/main.79d8d862.js",
     "static/js/787.8b17b01c.chunk.js": "/static/js/787.8b17b01c.chunk.js",
     "static/media/GoodenDwight.png": "/static/media/GoodenDwight.21bff97032cfe71587cb.png",
     "static/media/tcp banner.jpeg": "/static/media/tcp banner.30b0b30cb35e9dc74970.jpeg",
     "static/media/tcp logo.png": "/static/media/tcp logo.d4f3e2db048958ed79d3.png",
     "index.html": "/index.html",
-    "main.14e9379a.css.map": "/static/css/main.14e9379a.css.map",
-    "main.a43b5a44.js.map": "/static/js/main.a43b5a44.js.map",
+    "main.69e98b62.css.map": "/static/css/main.69e98b62.css.map",
+    "main.79d8d862.js.map": "/static/js/main.79d8d862.js.map",
     "787.8b17b01c.chunk.js.map": "/static/js/787.8b17b01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14e9379a.css",
-    "static/js/main.a43b5a44.js"
+    "static/css/main.69e98b62.css",
+    "static/js/main.79d8d862.js"
   ]
 }
