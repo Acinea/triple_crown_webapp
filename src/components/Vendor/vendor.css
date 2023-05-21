@@ -7,7 +7,8 @@
     position: fixed;
     z-index: 5;
     background-color: white;
-    border: 3px solid black; 
+    border: 3px solid black;
+    overflow: scroll;
 }
 
 #hide-vendor-main {
