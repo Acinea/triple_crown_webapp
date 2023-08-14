@@ -11,7 +11,6 @@ export function Vendor(props) {
             <div className='vendor-pricing'>
                 <h2>Table Pricing</h2>
                 <p className='table-info'>6' Table: $50</p>
-                <p className='table-info'>8' Table: $60</p>
                 <p id="vendor-disclaimer"><b>*Limited vendor service is available on a first paid, first served basis. It is recommended that tables are purchased in advance to ensure space is available.*</b></p>
             </div>
             <div className='vendor-event'>
