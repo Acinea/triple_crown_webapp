@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8a5ba89a.css",
-    "main.js": "/static/js/main.a0d3d270.js",
+    "main.js": "/static/js/main.0429e8bb.js",
     "static/js/787.8b17b01c.chunk.js": "/static/js/787.8b17b01c.chunk.js",
     "static/media/sportcard.jpg": "/static/media/sportcard.99b8ecf6ffec92d7463f.jpg",
     "static/media/tcp banner.jpeg": "/static/media/tcp banner.30b0b30cb35e9dc74970.jpeg",
@@ -9,11 +9,11 @@
     "static/media/tcp logo.png": "/static/media/tcp logo.d4f3e2db048958ed79d3.png",
     "index.html": "/index.html",
     "main.8a5ba89a.css.map": "/static/css/main.8a5ba89a.css.map",
-    "main.a0d3d270.js.map": "/static/js/main.a0d3d270.js.map",
+    "main.0429e8bb.js.map": "/static/js/main.0429e8bb.js.map",
     "787.8b17b01c.chunk.js.map": "/static/js/787.8b17b01c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a5ba89a.css",
-    "static/js/main.a0d3d270.js"
+    "static/js/main.0429e8bb.js"
   ]
 }
