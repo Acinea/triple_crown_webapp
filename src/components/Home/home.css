@@ -80,6 +80,10 @@
     max-width: 100%;;
 }
 
+#map {
+    max-width: 100%;
+}
+
 .info-menu {
     color:blue;
 }

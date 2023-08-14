@@ -44,7 +44,7 @@ export function Home() {
                     <p className='presents-info'>Join us at <b>Friendly Sons of the Shillelagh</b>, Saturday, Septmeber 9th as we showcase a trove of autographed cards and memorabilia. Relive the moments share stories, and connect with fellow enthusiasts who love the game just as much as you do.</p>
                     <p className='presents-info'><b>Admission Price: </b>$3</p>
                     <p className='presents-info'><b>Location:</b> 15 Oak Street, Old Bridge, NJ 08857</p>
-                    <img src={map} alt="Map to Sons of the Shillelagh" />
+                    <img id="map" src={map} alt="Map to Sons of the Shillelagh" />
                 </article>
             </section>
         </main>
