@@ -8,7 +8,8 @@ export function Vendor(props) {
         <main id={props.showVendor ? 'vendor-main' : 'hide-vendor-main'}>
             <div className='close-vendor-menu-button' onClick={props.toggleVendor}><CloseIcon/></div>
             <h1 id="vendor-title">Vendor Information</h1>
-            <div className='vendor-pricing'>
+            <h2 id="vendor-title">Please Contact Us for Current Vendor Information</h2>
+            {/*<div className='vendor-pricing'>
                 <h2>Table Pricing</h2>
                 <p className='table-info'>6' Table: $50</p>
                 <p id="vendor-disclaimer"><b>*Limited vendor service is available on a first paid, first served basis. It is recommended that tables are purchased in advance to ensure space is available.*</b></p>
@@ -27,7 +28,7 @@ export function Vendor(props) {
             <div>
                 <h2>Vendor Forms</h2>
                 <Link to="../../../files/file.pdf" target="_blank" rel="noreferrer" className='table-info'>Vendor Space Application</Link>
-            </div>
+            </div>*/}
         </main>
     )
 }
