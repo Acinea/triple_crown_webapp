@@ -16,6 +16,11 @@
     margin: 0;
 }
 
+.upcoming-event-container {
+    border: 0.25rem black solid;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+}
 .upcoming-event-banner-container {
     display: flex;
     justify-content: center;

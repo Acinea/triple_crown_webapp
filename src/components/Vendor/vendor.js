@@ -8,7 +8,7 @@ export function Vendor(props) {
         <main id={props.showVendor ? 'vendor-main' : 'hide-vendor-main'}>
             <div className='close-vendor-menu-button' onClick={props.toggleVendor}><CloseIcon/></div>
             <h1 id="vendor-title">Vendor Information</h1>
-            <h2 id="vendor-title">Please Contact Us for Current Vendor Information</h2>
+            <h2 id="vendor-title">Please Contact Us for Current Vendor Information:<br></br>(732) 824-2486<br></br>triplecrownpromotion@gmail.com</h2>
             {/*<div className='vendor-pricing'>
                 <h2>Table Pricing</h2>
                 <p className='table-info'>6' Table: $50</p>
