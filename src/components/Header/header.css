@@ -144,7 +144,7 @@ header {
     }
 
     .menu-list {
-        row-gap: 8vh;
+        row-gap: 6vh;
     }
 
     .menu-item:hover {

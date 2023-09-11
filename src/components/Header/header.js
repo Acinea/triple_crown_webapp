@@ -5,20 +5,30 @@ import MenuIcon from '@mui/icons-material/Menu';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import {Vendor} from '../Vendor/vendor'
+import {Past} from '../Past/past'
 import './header.css'
 
 export function Header() {
     const [active, setActive] = useState(false);
     const [showVendor, setShowVendor] = useState(false);
+    const [showPast, setShowPast] = useState(false);
     const toggleMenu = () => {
         active === false ? setActive(true) : setActive(false)
     }
     const toggleVendor = () => {
         showVendor === false ? setShowVendor(true) : setShowVendor(false)
     }
+    const togglePast = () => {
+        showPast === false ? setShowPast(true) : setShowPast(false)
+    }
     const openVendor = () => {
         toggleMenu();
         toggleVendor();
+    }
+
+    const openPast = () => {
+        toggleMenu();
+        togglePast();
     }
     const scrollSmoothTo = (id) => {
         const element = document.getElementById(id);
@@ -47,13 +57,11 @@ export function Header() {
                         <li className='menu-item' onClick={()=> scrollSmoothTo('upcoming-container-title')}>Upcoming Events</li>
                         <li className='menu-item' onClick={() => scrollSmoothTo('contact')}>Contact</li>
                         <li className='menu-item' onClick={() => scrollSmoothTo('about')}>About Us</li>
-                        <li className='menu-item' onClick={openVendor}>Vendor Information</li>
+                        <li className='menu-item' onClick={openPast}>Past Events</li>
                         {/*<li id="menu-purchase" onClick={() => window.open('https://www.eventbrite.com/e/sportscards-memorabilia-show-featuring-dwight-gooden-tickets-624616594047', '_blank')}><b>Purchase Tickets</b></li>*/}
+                        <li><img src={logo} alt="company logo" id="menu-logo" /><br></br>Triple Crown Promotion LLC</li>
                     </ul>
-                    <div className="menu-footer">
-                        <img src={logo} alt="company logo" id="menu-logo" />
-                        <b><p>Triple Crown Production LLC.</p></b>
-                    </div>
+                    
                 </nav>
                 <div className={"header-menu-button-inactive"} >
                     <MenuIcon fontSize='large' onClick={toggleMenu} />
@@ -65,6 +73,7 @@ export function Header() {
                 </div>
             </header>
             <Vendor showVendor={showVendor} openVendor={openVendor} toggleVendor={toggleVendor} />
+            <Past showPast={showPast} openPast={openPast} togglePast={togglePast} />
         </main>
     )
 }

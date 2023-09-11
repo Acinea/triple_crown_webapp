@@ -38,10 +38,10 @@ export function Home() {
             <section>
                 <article className='presents'>
                     <h2 className='presents-title'>Triple Crown Promotion Presents:<br></br> Sportscards & Memorabilia Show</h2>
-                    <h4 className='presents-title-info'>September 9th, 10am - 4pm</h4>
+                    <h4 className='presents-title-info'>October 7th, 10am - 4pm</h4>
                     <h4 className='presents-title-info'>Friendly Sons of the Shillelagh</h4>
-                    <img id="player-image" src={card} alt='Dwight Gooden' />
-                    <p className='presents-info'>Join us at <b>Friendly Sons of the Shillelagh</b>, Saturday, September 9th as we showcase a trove of autographed cards and memorabilia. Relive the moments share stories, and connect with fellow enthusiasts who love the game just as much as you do.</p>
+                    <img id="player-image" src={card} alt='Sports cards' />
+                    <p className='presents-info'>Join us at <b>Friendly Sons of the Shillelagh</b>, Saturday, October 7th as we showcase a trove of autographed cards and memorabilia. Relive the moments share stories, and connect with fellow enthusiasts who love the game just as much as you do.</p>
                     <p className='presents-info'><b>Admission Price: </b>$3</p>
                     <p className='presents-info'><b>Location:</b> 15 Oak Street, Old Bridge, NJ 08857</p>
                     <img id="map" src={map} alt="Map to Sons of the Shillelagh" />
