@@ -17,6 +17,9 @@
 }
 
 .upcoming-event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 0.25rem black solid;
     padding: 0.25rem;
     margin-bottom: 0.5rem;
@@ -28,6 +31,10 @@
     width: 100%;
     height:20rem;
     margin-bottom: 2rem;
+}
+
+.upcoming-image {
+    width: 80%;
 }
 
 #upcoming-event1-banner-container {

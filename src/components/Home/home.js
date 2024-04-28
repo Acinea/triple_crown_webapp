@@ -1,6 +1,6 @@
 import React from 'react'; //usestate removed
-import card from '../../resources/sportcard.jpg'
 import logo from '../../resources/tcp logo.png'
+import card from '../../resources/sportcard.jpg'
 //import {Price} from '../Price/price'
 //import {Schedule} from '../Schedule/schedule'
 import map from '../../resources/map.PNG'
@@ -37,14 +37,13 @@ export function Home() {
             </section>
             <section>
                 <article className='presents'>
-                    <h2 className='presents-title'>Triple Crown Promotion Presents:<br></br> Sportscards & Memorabilia Show</h2>
-                    <h4 className='presents-title-info'>October 7th, 10am - 4pm</h4>
-                    <h4 className='presents-title-info'>Friendly Sons of the Shillelagh</h4>
-                    <img id="player-image" src={card} alt='Sports cards' />
-                    <p className='presents-info'>Join us at <b>Friendly Sons of the Shillelagh</b>, Saturday, October 7th as we showcase a trove of autographed cards and memorabilia. Relive the moments share stories, and connect with fellow enthusiasts who love the game just as much as you do.</p>
+                    <h2 className='presents-title'>Triple Crown Promotion Presents:<br></br> Sportscards & Collectibles Show</h2>
+                    <h4 className='presents-title-info'>Saturday, May 4th, 9am - 2pm</h4>
+                    <h4 className='presents-title-info'>Old Bridge First Aid & Rescue Squad</h4>
+                    <img className='presents-image' src={card} alt='image of trading cards'></img>
+                    <p className='presents-info'>Join us at <b>Old Bridge First Aid & Rescue Squad</b>, Saturday, May 4th as we showcase a trove of autographed cards and Collectibles. Relive the moments share stories, and connect with fellow enthusiasts who love the game just as much as you do.</p>
                     <p className='presents-info'><b>Admission Price: </b>$3</p>
-                    <p className='presents-info'><b>Location:</b> 15 Oak Street, Old Bridge, NJ 08857</p>
-                    <img id="map" src={map} alt="Map to Sons of the Shillelagh" />
+                    <p className='presents-info'><b>Location:</b> 200 Marlboro Road, Old Bridge, NJ 08857</p>
                 </article>
             </section>
         </main>
