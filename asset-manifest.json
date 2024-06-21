@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.03ba32a2.css",
-    "main.js": "/static/js/main.30fd8e30.js",
+    "main.css": "/static/css/main.060f3466.css",
+    "main.js": "/static/js/main.d4993c79.js",
     "static/js/787.8b17b01c.chunk.js": "/static/js/787.8b17b01c.chunk.js",
     "static/media/sportcard.jpg": "/static/media/sportcard.99b8ecf6ffec92d7463f.jpg",
     "static/media/GoodenDwight.png": "/static/media/GoodenDwight.21bff97032cfe71587cb.png",
     "static/media/tcp banner.jpeg": "/static/media/tcp banner.30b0b30cb35e9dc74970.jpeg",
     "static/media/wildboys.jpg": "/static/media/wildboys.54f5b4304d3aac16d87a.jpg",
     "static/media/map.PNG": "/static/media/map.93e6aa049eb964648ee9.PNG",
+    "static/media/mail.pdf": "/static/media/mail.d52fd14b901418c28179.pdf",
     "static/media/tcp logo.png": "/static/media/tcp logo.d4f3e2db048958ed79d3.png",
     "index.html": "/index.html",
-    "main.03ba32a2.css.map": "/static/css/main.03ba32a2.css.map",
-    "main.30fd8e30.js.map": "/static/js/main.30fd8e30.js.map",
+    "main.060f3466.css.map": "/static/css/main.060f3466.css.map",
+    "main.d4993c79.js.map": "/static/js/main.d4993c79.js.map",
     "787.8b17b01c.chunk.js.map": "/static/js/787.8b17b01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03ba32a2.css",
-    "static/js/main.30fd8e30.js"
+    "static/css/main.060f3466.css",
+    "static/js/main.d4993c79.js"
   ]
 }
