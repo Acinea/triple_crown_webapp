@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b271885.css",
-    "main.js": "/static/js/main.e7a53335.js",
+    "main.js": "/static/js/main.fa361b65.js",
     "static/js/787.8b17b01c.chunk.js": "/static/js/787.8b17b01c.chunk.js",
     "static/media/sportcard.jpg": "/static/media/sportcard.99b8ecf6ffec92d7463f.jpg",
     "static/media/GoodenDwight.png": "/static/media/GoodenDwight.21bff97032cfe71587cb.png",
@@ -12,11 +12,11 @@
     "static/media/tcp logo.png": "/static/media/tcp logo.d4f3e2db048958ed79d3.png",
     "index.html": "/index.html",
     "main.4b271885.css.map": "/static/css/main.4b271885.css.map",
-    "main.e7a53335.js.map": "/static/js/main.e7a53335.js.map",
+    "main.fa361b65.js.map": "/static/js/main.fa361b65.js.map",
     "787.8b17b01c.chunk.js.map": "/static/js/787.8b17b01c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b271885.css",
-    "static/js/main.e7a53335.js"
+    "static/js/main.fa361b65.js"
   ]
 }
