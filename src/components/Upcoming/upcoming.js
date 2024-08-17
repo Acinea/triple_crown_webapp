@@ -12,7 +12,7 @@ export function Upcoming() {
             <h1 id="upcoming-container-title">Upcoming Events</h1>
             <section className='upcoming-event-container'>
                 <div className='upcoming-event-title'>
-                    <h2 className='upcoming-event-title-info'>Saturday, September 7th</h2>
+                    <h2 className='upcoming-event-title-info'>Saturday, October 5th</h2>
                     <h2 className='upcoming-event-title-info'>Triple Crown Promotion Presents:<br></br> Mark Gastineau</h2>
                     <h2 className='upcoming-event-title-info'>Imperial Music Center, South River NJ</h2>
                     <img className='upcoming-image' src={mark} alt="sports cards" />
