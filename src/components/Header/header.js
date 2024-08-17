@@ -57,7 +57,8 @@ export function Header() {
                         <li className='menu-item' onClick={()=> scrollSmoothTo('upcoming-container-title')}>Upcoming Events</li>
                         <li className='menu-item' onClick={() => scrollSmoothTo('contact')}>Contact</li>
                         <li className='menu-item' onClick={() => scrollSmoothTo('about')}>About Us</li>
-                        <li className='menu-item' onClick={openPast}>Past Events</li>
+                        {/*<li className='menu-item' onClick={openPast}>Past Events</li>*/}
+                        <li className='menu-item' onClick={() => scrollSmoothTo('mail-main')}>Mail-In Form</li>
                         {/*<li id="menu-purchase" onClick={() => window.open('https://www.eventbrite.com/e/sportscards-memorabilia-show-featuring-dwight-gooden-tickets-624616594047', '_blank')}><b>Purchase Tickets</b></li>*/}
                         <li><img src={logo} alt="company logo" id="menu-logo" /><br></br>Triple Crown Promotion LLC</li>
                     </ul>

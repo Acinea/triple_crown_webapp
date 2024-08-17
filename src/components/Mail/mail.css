@@ -1,0 +1,12 @@
+#mail-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mail-form {
+    width: 90%;
+}
+#mail-title {
+    display: flex;
+    justify-content: center;
+}

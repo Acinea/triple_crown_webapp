@@ -1,4 +1,5 @@
 import React from 'react';
+import mail from './mail.pdf'
 import { Link } from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 import './vendor.css'
@@ -7,8 +8,8 @@ export function Vendor(props) {
     return (
         <main id={props.showVendor ? 'vendor-main' : 'hide-vendor-main'}>
             <div className='close-vendor-menu-button' onClick={props.toggleVendor}><CloseIcon/></div>
-            <h1 id="vendor-title">Vendor Information</h1>
-            <h2 id="vendor-title">Please Contact Us for Current Vendor Information:<br></br>(732) 824-2486<br></br>triplecrownpromotion@gmail.com</h2>
+            <h1 id="vendor-title">Mail In Form</h1>
+            <iframe src={mail} width='100%' height="800vh"></iframe>
             {/*<div className='vendor-pricing'>
                 <h2>Table Pricing</h2>
                 <p className='table-info'>6' Table: $50</p>

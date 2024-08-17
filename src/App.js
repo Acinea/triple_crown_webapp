@@ -4,6 +4,7 @@ import {Home} from './components/Home/home'
 import { Upcoming } from './components/Upcoming/upcoming';
 import {Contact} from './components/Contact/contact'
 import {About} from './components/About/aboutus'
+import {Mail} from './components/Mail/mail'
 import {Footer} from './components/Footer/footer'
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <Upcoming />
       <Contact />
       <About />
+      <Mail />
       <Footer />
     </Router>
   );
