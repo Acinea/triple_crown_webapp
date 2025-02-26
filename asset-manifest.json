@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.4b271885.css",
-    "main.js": "/static/js/main.1e98eaec.js",
+    "main.js": "/static/js/main.617e5f4e.js",
     "static/js/787.8b17b01c.chunk.js": "/static/js/787.8b17b01c.chunk.js",
     "static/media/sportcard.jpg": "/static/media/sportcard.99b8ecf6ffec92d7463f.jpg",
-    "static/media/Pokemon.PNG": "/static/media/Pokemon.d41dad9810abb259b0d8.PNG",
     "static/media/GoodenDwight.png": "/static/media/GoodenDwight.21bff97032cfe71587cb.png",
+    "static/media/Pokemon.jpg": "/static/media/Pokemon.07e882c91a1afbf3b22f.jpg",
     "static/media/tcp banner.jpeg": "/static/media/tcp banner.30b0b30cb35e9dc74970.jpeg",
     "static/media/wildboys.jpg": "/static/media/wildboys.54f5b4304d3aac16d87a.jpg",
     "static/media/mail.pdf": "/static/media/mail.d52fd14b901418c28179.pdf",
@@ -13,11 +13,11 @@
     "static/media/tcp logo.png": "/static/media/tcp logo.d4f3e2db048958ed79d3.png",
     "index.html": "/index.html",
     "main.4b271885.css.map": "/static/css/main.4b271885.css.map",
-    "main.1e98eaec.js.map": "/static/js/main.1e98eaec.js.map",
+    "main.617e5f4e.js.map": "/static/js/main.617e5f4e.js.map",
     "787.8b17b01c.chunk.js.map": "/static/js/787.8b17b01c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b271885.css",
-    "static/js/main.1e98eaec.js"
+    "static/js/main.617e5f4e.js"
   ]
 }
